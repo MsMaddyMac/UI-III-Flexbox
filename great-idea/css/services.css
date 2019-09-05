@@ -1,8 +1,8 @@
 *{
     /*box-sizing:border-box;*/
-    padding:15px;
-    margin:0;
-    border: 1px solid grey;
+    width: 1000px;
+    margin:0 auto;
+    /*border: 1px solid grey;*/
 }
 
 header nav{
@@ -13,6 +13,7 @@ header nav{
 nav a{
     text-decoration: none;
     color: grey;
+    font-family: 'Titillium Web', sans-serif;
 }
 .navLinks{
     width: 70%;
@@ -22,11 +23,14 @@ nav a{
 }
 
 .logo{
-    width: 100%;
+    width: 80%;
+    display: flex;
+    align-content: right;
 }
 
 .services-header-img{
     width: 100%;
+    margin-top: 10px; 
 }
 
 h1, h2{
@@ -40,20 +44,19 @@ button{
     margin-bottom: 20px;
     text-align: center;
 }
-
+#mainContent{
+    display: flex;
+    margin: 10px;
+}
 .contentText{
     display:flex;
-    flex-direction: column;
-}
-
-.content-row{
-    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     border: 1px solid black;
     height: 200px;
     width: 50%;
     background-color: lightgrey;
-    flex-direction: right;
+
 }
 footer{
     display:flex;
