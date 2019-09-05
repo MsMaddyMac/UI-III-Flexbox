@@ -44,6 +44,11 @@ button{
     margin-bottom: 20px;
     text-align: center;
 }
+.mainContent{
+    border-top: 1px solid black;
+    margin-top: 20px;
+    padding: 20px;
+}
 .digitalDesign{
     display: flex;
     flex-wrap: wrap;
