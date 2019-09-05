@@ -49,13 +49,14 @@ button{
     flex-wrap: wrap;
     margin: 10px;
     justify-content: space-around;
+    height: 100%;
 }
 .digitalDesign .contentText{
     border: 1px solid black;
     height: 200px;
-    width: 50%;
+    width: 40%;
     background-color: lightgrey;
-
+    margin: 10px;
 }
 footer{
     display:flex;
