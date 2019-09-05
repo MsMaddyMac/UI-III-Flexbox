@@ -1,5 +1,5 @@
 *{
-    box-sizing:border-box;
+    /*box-sizing:border-box;*/
     padding:15px;
     margin:0;
     border: 1px solid grey;
@@ -7,5 +7,55 @@
 
 header nav{
     display: flex;
-    color: red;
+    justify-content: space-between;
+}
+
+nav a{
+    text-decoration: none;
+    color: grey;
+}
+.navLinks{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 100%;
+}
+
+.services-header-img{
+    width: 100%;
+}
+
+h1, h2{
+    font-family: 'Bangers', cursive;
+}
+
+button{
+    border-radius: 10px;
+    width: 25%;
+    height: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contentText{
+    display:flex;
+    flex-direction: column;
+}
+
+.content-row{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    height: 200px;
+    width: 50%;
+    background-color: lightgrey;
+    flex-direction: right;
+}
+footer{
+    display:flex;
+    justify-content: center;
 }
