@@ -23,7 +23,7 @@ nav a{
 }
 
 .logo{
-    width: 80%;
+    width: 50%;
     display: flex;
     align-content: right;
 }
@@ -44,14 +44,12 @@ button{
     margin-bottom: 20px;
     text-align: center;
 }
-#mainContent{
+.mainContent{
     display: flex;
+    flex-wrap: wrap;
     margin: 10px;
 }
-.contentText{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+.mainContent .contentText{
     border: 1px solid black;
     height: 200px;
     width: 50%;
