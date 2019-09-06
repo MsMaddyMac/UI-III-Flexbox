@@ -41,11 +41,17 @@ h1, h2{
 }
 
 button{
-    border-radius: 10px;
-    width: 25%;
-    height: 20px;
-    margin-bottom: 20px;
-    text-align: center;
+    padding: 10px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.services-content .contentText button :hover{
+    background: black;
+    color: white;
 }
 .container{
     width: 880px;
@@ -62,11 +68,13 @@ button{
     margin: 10px 0;
 }
 
-.services-content .services-text{
-    border-bottom: 1px solid black;
-    padding-bottom: 40px;
-    margin-bottom: 20px
-
+.services-content .contentText{
+    padding: 20px;
+    border: 1px solid black;
+    width: 420px;
+    background: whitesmoke;
+    margin: 20px 0;
+}
 footer{
     display:flex;
     justify-content: center;
