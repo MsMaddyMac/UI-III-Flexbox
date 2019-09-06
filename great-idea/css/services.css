@@ -5,29 +5,37 @@
     /*border: 1px solid grey;*/
 }
 
-header nav{
+header {
     display: flex;
-    justify-content: space-between;
-}
-
-nav a{
-    text-decoration: none;
-    color: grey;
-    font-family: 'Titillium Web', sans-serif;
-}
-.navLinks{
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
-}
-
-header .logo{
-    width: 45%;
+    border: 1px solid grey;
+  }
+  
+  header nav a {
+    margin-right: 65px;
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  header nav a:first-child {
+    margin-left: 0;
+    padding-left: 15px;
+  }
+  
+  header nav a:last-child {
+    margin-right: 0;
+  }
+  
+  header .logo {
     display: flex;
-    align-content: right;
-}
-
+    justify-content: flex-end;
+    padding-left: 42px;
+  }  
 .services-header-img{
     width: 100%;
     margin-top: 10px; 
