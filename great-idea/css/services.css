@@ -1,48 +1,43 @@
 *{
-    /*box-sizing:border-box;*/
-    width: 1000px;
-    margin:0 auto;
-    /*border: 1px solid grey;*/
+    box-sizing:border-box;
 }
 
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
 header {
     display: flex;
-    align-items: center;
-    border: 1px solid grey;
+    width: 100%;
   }
   
+  header nav{
+      margin-top: 40px;
+      width: 610px;
+      justify-content: space-between;
+      display: flex;
+  }
   header nav a {
-    margin-right: 65px;
-    font-size: 14px;
-    color: gray;
+    color: #b0b0b0;
     text-decoration: none;
   }
   
   header nav a:hover {
     text-decoration: underline;
-  }
-  
-  header nav a:first-child {
-    margin-left: 0;
-    padding-left: 15px;
-  }
-  
-  header nav a:last-child {
-    margin-right: 0;
+    color: black;
   }
   
   header .logo {
-    display: flex;
-    justify-content: flex-end;
-    padding-left: 42px;
+    margin: 28px 0 0 91px;
   }  
-.services-header-img{
-    width: 100%;
-    margin-top: 10px; 
+.services-content .services-header-img{
+    margin-top: 20px 0; 
 }
 
 h1, h2{
     font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
 }
 
 button{
@@ -53,27 +48,25 @@ button{
     text-align: center;
 }
 .container{
-    border-top: 1px solid black;
-    margin-top: 20px;
-    padding: 20px;
+    width: 880px;
+    margin: auto;
 }
-.services{
+.services-content{
     display: flex;
     flex-wrap: wrap;
-    margin: 10px;
-    justify-content: space-around;
-    height: 20%;
-    width: 100%;
-    padding: 0 10px;
-    background-color: purple;
+    justify-content: space-between;
+    line-height: 1.3;
 }
-.digitalDesign .contentText{
-    border: 1px solid black;
-    height: 80%;
-    width: 40%;
-    background-color: lightgrey;
-    margin: 10px;
+.services-content h1{
+    font-size: 26px;
+    margin: 10px 0;
 }
+
+.services-content .services-text{
+    border-bottom: 1px solid black;
+    padding-bottom: 40px;
+    margin-bottom: 20px
+
 footer{
     display:flex;
     justify-content: center;
