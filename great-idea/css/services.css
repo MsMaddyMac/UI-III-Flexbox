@@ -49,7 +49,7 @@ button{
     border: 1px solid black;
 }
 
-.services-content .contentText button :hover{
+.services-content .contentText button:hover{
     background: black;
     color: white;
 }
@@ -74,6 +74,34 @@ button{
     width: 420px;
     background: whitesmoke;
     margin: 20px 0;
+}
+
+.funFacts .funFactsText ul{
+    margin: 20px;
+}
+
+.services-content .funFacts .funFactsText p {
+    margin-bottom: 20px;
+}
+.funFacts .funFactsText ul li{
+    list-style: square;
+    padding: 5px;
+}
+.services-content .funFacts .funFactsText{
+    width: 400px;
+    margin: -18px 50px 20px 0;
+}
+.services-content .funFacts{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 2px solid black; 
+    margin: 10px 0 35px 0;
+    padding-top: 40px; 
+}
+
+.services-content .funFacts .services-info-img{
+    width: 420px;
+    height: 300px;
 }
 footer{
     display:flex;
