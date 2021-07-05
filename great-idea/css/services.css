@@ -1,0 +1,115 @@
+*{
+    box-sizing:border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+header {
+    display: flex;
+    width: 100%;
+  }
+  
+  header nav{
+      margin-top: 40px;
+      width: 610px;
+      justify-content: space-between;
+      display: flex;
+  }
+  header nav a {
+    color: #b0b0b0;
+    text-decoration: none;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+    color: black;
+  }
+  
+  header .logo {
+    margin: 28px 0 0 91px;
+  }  
+.services-content .services-header-img{
+    margin-top: 20px 0; 
+}
+
+h1, h2{
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+button{
+    padding: 10px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.services-content .services-text{
+    border-bottom: 1px solid black;
+    padding-bottom: 40px;
+    margin-bottom: 20px; 
+}
+
+.services-content .contentText button:hover{
+    background: black;
+    color: white;
+}
+.container{
+    width: 880px;
+    margin: auto;
+}
+.services-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    line-height: 1.3;
+}
+.services-content h1{
+    font-size: 26px;
+    margin: 10px 0;
+}
+
+.services-content .contentText{
+    padding: 20px;
+    border: 1px solid black;
+    width: 420px;
+    background: whitesmoke;
+    margin: 20px 0;
+}
+
+.funFacts .funFactsText ul{
+    margin: 20px;
+}
+
+.services-content .funFacts .funFactsText p {
+    margin-bottom: 20px;
+}
+.funFacts .funFactsText ul li{
+    list-style: square;
+    padding: 5px;
+}
+.services-content .funFacts .funFactsText{
+    width: 400px;
+    margin: -18px 50px 20px 0;
+}
+.services-content .funFacts{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 2px solid black; 
+    margin: 10px 0 35px 0;
+    padding-top: 40px; 
+}
+
+.services-content .funFacts .services-info-img{
+    width: 420px;
+    height: 300px;
+}
+footer{
+    display:flex;
+    justify-content: center;
+}
